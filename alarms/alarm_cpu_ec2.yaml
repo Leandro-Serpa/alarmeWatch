@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: >
-  CloudFormation template to create a CloudWatch alarm for EC2 CPU utilization above 80%.
+  CloudFormation template to create a CloudWatch alarm for EC2 CPU utilization   above 80%.
 
 Resources:
   CpuUtilizationEc2Alarm:
