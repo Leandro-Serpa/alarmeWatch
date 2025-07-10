@@ -24,7 +24,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::174590855898:role/GitHubActionsCloudFormationRole
-          aws-region: sa-east-1
+          aws-region: us-east-2
 
       - name: Deploy CloudFormation stack
         run: |
