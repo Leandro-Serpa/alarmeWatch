@@ -26,7 +26,7 @@ jobs:
           role-to-assume: arn:aws:iam::174590855898:role/GitHubActionsCloudFormationRole
           aws-region: us-east-2
 
-      - name: Deploy CloudFormation stack
+      - name: Deploy CloudFormation stack (debug)
         run: |
           aws cloudformation deploy \
             --stack-name alarm_cpu_ec2 \
