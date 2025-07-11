@@ -17,7 +17,7 @@ Resources:
       Statistic: Average
       Period: 300           # 5 minutos
       EvaluationPeriods: 2  # 2 períodos
-      Threshold: 90.0
+      Threshold: 80.0
       ComparisonOperator: GreaterThanThreshold
       Unit: Percent
       # AlarmActions: []   # Removido, pois você não tem tópico SNS ainda
